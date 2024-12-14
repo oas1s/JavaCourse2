@@ -1,0 +1,7 @@
+1. Create Cat class with name, color, sex fields.
+2. Create static crossBreeding method that will accept 2 cats
+ with different sex(if their sex is equal throw exception).
+3. crossBreeding method will randomly choose name from
+inside array of names, give 33,3% father color,
+33,3% mather color,33,3% mixed color of both parents to
+child, sex of child also generated randomly.
