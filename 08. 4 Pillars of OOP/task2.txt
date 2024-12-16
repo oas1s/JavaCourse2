@@ -1,0 +1,10 @@
+1. Create Car class with field speed,method honk and method
+countDistance which accept duration in minutes and return
+distance that car made in accepted minutes.
+2. Create BoostedCar class that extends Car and have
+additional field speedAfter3Minutes meaning increased speed
+after 3rd minute of drive.
+3. Create static method race using countDistance method
+ which will take 2 cars as input and distance
+ , call winner honk
+  and return winner.
