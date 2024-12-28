@@ -13,9 +13,9 @@ public class Matrix {
 
     public int getElement(int row, int column) throws Exception {
         if (row> array.length-1) {
-            throw new Exception("row is high");
+            throw new MyException("row is high");
         }
-x        return array[row][column];
+        return array[row][column];
     }
 
     public void printMatrix(){
