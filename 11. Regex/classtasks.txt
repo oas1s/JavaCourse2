@@ -2,3 +2,22 @@
 Write a regular expression that checks whether a string is a valid email address. Email must contain:
 Latin letters, numbers, periods, hyphens and underscores up to the @ symbol.
 After the @ symbol there must be a domain name containing only 3 letters and digits consisting of Latin letters and dots (for example, example.com).
+
+2. Phone number verification.
+   Write a regular expression to check phone numbers in the format:
+   7 (917) 421-42-12
+
+3. Date verification in the DD-MM-YYYY format.
+   Write a regular expression to check the date, which must match the format DD-MM-YYYY (for example, 12-03-2025). Keep in mind:
+   Months from 01 to 12.
+   Days from 01 to 31
+
+4. Search for all URLs in the text.
+   Write a regular expression to search for all URLs in the text, including both http and https. Example:
+   http://example.com or https://example.com .
+
+5. Search for all words starting with a capital letter.
+   Write a regular expression that finds all words in the text starting with a capital letter (for example, "Hello", "World").
+
+6. Search for all strings ending in . or!.
+   Write a regular expression that finds all strings ending with a period or exclamation mark (for example, "Hello!" or "Goodbye.").
