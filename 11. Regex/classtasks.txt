@@ -1,4 +1,4 @@
 1. Checking for the correct email.
 Write a regular expression that checks whether a string is a valid email address. Email must contain:
 Latin letters, numbers, periods, hyphens and underscores up to the @ symbol.
-After the @ symbol there must be a domain name consisting of Latin letters and dots (for example, example.com).
+After the @ symbol there must be a domain name containing only 3 letters and digits consisting of Latin letters and dots (for example, example.com).
