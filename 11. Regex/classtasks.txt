@@ -13,11 +13,11 @@ After the @ symbol there must be a domain name containing only 3 letters and dig
    Days from 01 to 31
 
 4. Search for all URLs in the text.
-   Write a regular expression to search for all URLs in the text, including both http and https. Example:
+   Write a regular expression to search for all URLs in the text, including both http and https, sout this urls. Example:
    http://example.com or https://example.com .
 
 5. Search for all words starting with a capital letter.
-   Write a regular expression that finds all words in the text starting with a capital letter (for example, "Hello", "World").
+   Write a regular expression that finds all words in the text starting with a capital letter and sout this words (for example, "Hello", "World").
 
 6. Search for all strings ending in . or!.
-   Write a regular expression that finds all strings ending with a period or exclamation mark (for example, "Hello!" or "Goodbye.").
+   Write a regular expression that finds all strings ending with a period or exclamation mark and sout them (for example, "Hello!" or "Goodbye.").
