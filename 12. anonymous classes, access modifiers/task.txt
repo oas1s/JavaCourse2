@@ -1,0 +1,9 @@
+1. Parse all billionaires in a Billionaire class array
+2. Print the number of men and women in the list
+3. Print average age of people on list
+4. Find the youngest billionaire and print all his data
+5. Print top 5 countries where billionaires live with count
+Example:
+USA - 1000
+Russia - 500
+France - 300
