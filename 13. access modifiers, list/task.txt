@@ -1,8 +1,6 @@
-1. Parse all channels into List of Channel type
-2. Print top 5 channels by subscribers
-3. Print summary of viewCount for each country.
-Example:
-USA - 10000000 views
-CA - 100000 views
-etc
-4. Print top 5 channels for each country
+1. Parse all cars into List of Honda type
+2. Print automatic and manual cars count
+3. Count average price for Diesel and Petrol cars and print
+which one is more expensive
+4. Print most popular car model
+5. Print what year have most 'Honda City ZX CVT' models
