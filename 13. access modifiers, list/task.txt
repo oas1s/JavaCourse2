@@ -3,4 +3,4 @@
 3. Count average price for Diesel and Petrol cars and print
 which one is more expensive
 4. Print most popular car model
-5. Print what year have most 'Honda City ZX CVT' models
+5. Print what year have most 'Honda City ZX CVT' model
