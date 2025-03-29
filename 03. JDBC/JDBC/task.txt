@@ -1,0 +1,10 @@
+1. Create table students at your database
+2. Students should have fields: id, name, surname,
+age, sex, final_points
+3. Receive data from database about all students.
+4. Put data into List
+5. Using Stream API print students whos name starts with A
+and final points higher than 10
+6. Using Stream API print age of male students.
+7. Using Stream API create another list which contains
+ids of students who have more than 28 points.
