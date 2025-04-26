@@ -1,0 +1,4 @@
+1. Write a page for user registration /register with a form where there is a username and password. Save user data to the database.
+2. Write a page /login with a form for authorization where there is a username and password. If the user entered the data correctly, add the username parameter to the session, if not redirect him to error page.
+3. Write a page /users where all registered users will be displayed.
+4. Create a web filter that will allow only authorized users to the page /users.
