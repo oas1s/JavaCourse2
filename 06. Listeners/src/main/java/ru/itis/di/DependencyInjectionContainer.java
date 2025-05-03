@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis.di;
 
 import lombok.SneakyThrows;
 import org.reflections.Reflections;
@@ -23,7 +23,7 @@ public class DependencyInjectionContainer
     @SneakyThrows
     public static void dependencyInjectionContainerStart(){
         //getting all classes in our project
-        Reflections reflections = new Reflections("ru.itis", new SubTypesScanner(false));
+        Reflections reflections = new Reflections("ru.itis.di", new SubTypesScanner(false));
         Set<Class<?>> allClasses =
                 reflections.getSubTypesOf(Object.class);
 
