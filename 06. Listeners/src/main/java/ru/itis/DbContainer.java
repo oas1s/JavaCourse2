@@ -16,6 +16,7 @@ public class DbContainer {
             if (connection == null){
                 connection = DriverManager
                         .getConnection("jdbc:postgresql://localhost:5432/postgres","postgres","postgres");
+                return connection;
             } else {
                 return connection;
             }
