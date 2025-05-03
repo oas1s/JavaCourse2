@@ -1,0 +1,5 @@
+1. Implement an endpoint /activeUsers that will show the number of active sessions on the site.
+You need to do this using HttpSessionListener.
+2. Implement a social network where the user can register, log in,
+ leave comments on the page of other users, view his page and the page of other users.
+  Use postgresql to store data and contain all the logic in a single DAO.
