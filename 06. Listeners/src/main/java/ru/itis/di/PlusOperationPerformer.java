@@ -1,8 +1,8 @@
-package ru.itis.di;
-
-public class PlusOperationPerformer implements OperationPerformer {
-    @Override
-    public Double performOperation(Double var1, Double var2) {
-        return var1+var2;
-    }
-}
+//package ru.itis.di;
+//
+//public class PlusOperationPerformer implements OperationPerformer {
+//    @Override
+//    public Double performOperation(Double var1, Double var2) {
+//        return var1+var2;
+//    }
+//}
