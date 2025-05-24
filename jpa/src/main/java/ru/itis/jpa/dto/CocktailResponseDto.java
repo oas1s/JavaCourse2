@@ -1,26 +1,45 @@
 package ru.itis.jpa.dto;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class CocktailDto {
-    private String name;
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class CocktailResponseDto {
 
-    private String category;
+    private List<CocktailResponse> drinks;
 
-    private String alcoholic;
+    @Data
+    @AllArgsConstructor
+    @NoArgsConstructor
+    @Builder
+    @JsonIgnoreProperties(ignoreUnknown = true)
+    public static class CocktailResponse{
+        private String strDrink;
 
-    private String glass;
+        private String strCategory;
 
-    private String instructions;
+        private String strAlcoholic;
 
-    private String picUrl;
+        private String strGlass;
 
-    private String ingredients;
+        private String strInstructions;
+
+        private String strDrinkThumb;
+
+        private String strIngredient1;
+        private String strIngredient2;
+        private String strIngredient3;
+        private String strIngredient4;
+    }
 }
+
+

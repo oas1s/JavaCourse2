@@ -6,8 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Register</h1>
-<form method="post" action="/register">
+<h1>Login</h1>
+<form method="post" action="/login">
     <input type="text" placeholder="username" name="username">
     <input type="text" placeholder="password" name="password">
     <input type="submit">
