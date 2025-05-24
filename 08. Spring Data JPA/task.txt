@@ -1,0 +1,4 @@
+1. Write a /users page where all users will be displayed.
+2. Write a page /cocktails on which all cocktails will be displayed.
+3. On the /cocktails page, create a like button next to the cocktail, clicking on which the user will add the cocktail they like.
+4. Change the /users page so that your favorite cocktails are displayed on it.
