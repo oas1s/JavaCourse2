@@ -1,0 +1,1 @@
+Write an endpoint /banAllUsers, which is available only to administrators and bans all users except administrators.
