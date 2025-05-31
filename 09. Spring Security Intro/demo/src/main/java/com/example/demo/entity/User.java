@@ -33,6 +33,8 @@ public class User {
     @Enumerated(EnumType.STRING)
     private State state;
 
+    private Integer money;
+
     public enum Role{
         USER,ADMIN
     }
