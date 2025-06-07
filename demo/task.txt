@@ -1,0 +1,4 @@
+Make a page for displaying users.
+Users should be sorted by descending id and the page should contain 2 users, with clickable page numbers at the bottom.
+That is, you can go to 2,3,4, etc. pages.
+If there are 6 users, for example, then there should be 3 clickable pages at the bottom.
